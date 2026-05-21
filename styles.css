@@ -28,20 +28,7 @@ body {
 }
 
 .profile {
-  display: grid;
-  grid-template-columns: 170px 1fr;
-  gap: 28px;
-  align-items: start;
   margin-bottom: 34px;
-}
-
-.profile-image {
-  display: block;
-  width: 170px;
-  aspect-ratio: 1;
-  object-fit: cover;
-  border: 1px solid var(--rule);
-  filter: grayscale(1);
 }
 
 h1,
@@ -127,11 +114,6 @@ hr {
   }
 
   .profile {
-    grid-template-columns: 1fr;
-    gap: 18px;
-  }
-
-  .profile-image {
-    width: 142px;
+    margin-bottom: 28px;
   }
 }
